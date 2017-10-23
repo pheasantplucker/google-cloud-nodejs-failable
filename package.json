@@ -1,0 +1,18 @@
+{
+  "name": "@pheasantplucker/google-cloud-nodejs-failable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/gcloud.js",
+  "scripts": {
+    "test": "mocha ./src/**.js"
+  },
+  "author": "timcash@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "@pheasantplucker/failables": "^1.0.0",
+    "google-cloud": "^0.57.0"
+  }
+}
